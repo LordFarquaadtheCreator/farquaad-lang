@@ -1,0 +1,14 @@
+# /bin/bash
+
+# take in file argument
+path=$1
+interpetor_path="/Users/fahadfaruqi/farquaad-lang/Interp.py"
+
+if [[ -z "$path" ]]; then
+    echo "Missing path argument for interpetor!"
+    exit 1
+fi
+
+py_path=$(which python3)
+"$py_path" "$interpetor_path" "$path"
+exit 0
