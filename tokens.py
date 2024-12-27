@@ -1,8 +1,8 @@
 class Tokens:
     def __init__(self):
         self.recognized_tokens = {
-            "preach" : self.print_token,
-            "ts" : self.make_variable
+            "bhol" : self.print_token,
+            "yeh" : self.make_variable
             }
 
     def print_token(self, args):
