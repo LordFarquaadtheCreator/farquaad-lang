@@ -2,7 +2,7 @@
 
 # take in file argument
 path=$1
-interpetor_path="/Users/fahadfaruqi/farquaad-lang/Interp.py"
+interpetor_path="/Users/fahadfaruqi/farquaad-lang/main.py"
 
 if [[ -z "$path" ]]; then
     echo "Missing path argument for interpetor!"
